@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello PanierController!{% endblock %}
+
+{% block body %}
+<div class="container mt-5">
+
+    <div class="row">
+        <div class="col-9">
+            {% if produit is empty %}
+                <p>Aucun produit d'enregistré actuellement</p>
+            {% else %}
+                <p>Il y a actuellement {{ produit | length}} produit(s) d'enregistrés</p>
+                <a href="#">Voir nos produits</a>
+            {% endif %}
+        </div>
+        <div class="col-3">
+            <p>{{ "Vous avez"}} {{ produit | length }} {{ "produit(s) dans votre panier"}}.</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

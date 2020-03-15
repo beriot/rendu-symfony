@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container mt-5">
+    <div class="row">
+        <div class="col-9">
+            <div class="card" style="width: 18rem;">
+                <img src="{{ asset('upload/images/' ~ produit.photo)}}" class="card-img-top" alt="{{produit.nom}}">
+                <div class="card-body">
+                    <h5 class="card-title">{{produit.nom}}</h5>
+                    {{ "Prix"}} : {{ produits.prix }} €
+                    {{ "Quantité"}} : {{ produits.quantite }}
+
+                    <a href="{{path('deleteProduit', {id: produit.id})}}"><button class="btn btn-danger">Supprimer</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            {{form_start(produitForm)}}
+
+            {{form_rest(produitForm)}}
+            {{form_end(produitForm)}}
+        </div>
+    </div>
+{% endblock %}
