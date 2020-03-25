@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5576d296-5965-499b-aa43-caef287f5600" name="Default Changelist" comment="" />
+    <list default="true" id="5576d296-5965-499b-aa43-caef287f5600" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/panier/produitSingle.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/panier/produitSingle.html.twig" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,10 +167,22 @@
       <workItem from="1584116818650" duration="4051000" />
       <workItem from="1584201920479" duration="7942000" />
       <workItem from="1584292376063" duration="3371000" />
+      <workItem from="1585144075564" duration="1035000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
