@@ -19,7 +19,7 @@ class PanierController extends AbstractController
     /**
      * @Route("/", name="home")
      */
-    public function index(Request $request, EntityManagerInterface $entityManager, TranslatorInterface $translator)
+    public function index(Request , EntityManagerInterface )
     {
         $panierRepository = $this->getDoctrine()->getRepository(Panier::class)
             ->findAll();
